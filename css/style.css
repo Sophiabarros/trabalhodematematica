@@ -1,0 +1,60 @@
+@import url(../css/header.css);
+
+body{
+    background-color: var(--verdeescuro);   
+}
+main{
+   
+    .conteudo{
+        background-color: var(--blue);
+        color: var(--white);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        border-radius: 1.2rem;
+
+        width: 50rem;
+        height: 20rem;
+
+        padding-inline: 2rem;
+
+        margin-top: 4.5rem;
+        margin-inline: auto;
+
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+        h1{
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+        }
+
+        p{
+            margin-bottom: 1rem;
+        }
+
+    .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        gap: 3rem;
+     
+    button{
+        color: var(--blue);
+        background: var(--white);
+        border: .1rem solid var(--white);
+        width: 15rem;
+    }
+
+    button:hover{
+        color: var(--white);
+        background: var(--blue);
+        border: .1rem solid var(--white);
+        width: 15rem;
+    }
+}
+
+    }
+}

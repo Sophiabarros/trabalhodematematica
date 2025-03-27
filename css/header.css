@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+:root{
+    --verdeescuro: #24252A;
+    --white: #edf0f1;
+    --blue: #0088a9;
+    --lightcyan: #E0FFFF;
+    --paleturquoise: #AFEEEE;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Cabin", sans-serif;
+  
+}
+
+header{
+    background-color: var(--verdeescuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 10%;
+    height: .8rem;
+    font-size: 1rem;
+    box-shadow: .2rem .3rem .5rem rgba(0, 0, 0, 0.3);
+
+    .logo{
+        cursor: pointer;
+        width: 10rem;
+    }
+
+    nav{
+        li, a, button{
+            font-weight: 500;
+            font-size: 1.6rem;
+            color: var(--white);
+            text-decoration: none;
+        }
+
+    .navlinks{
+        list-style: none;
+
+        li{
+            display: inline-block;
+            padding: 0rem 2rem;
+        }
+
+        li a{
+            transition: all 0.3s ease 0s;
+        }
+
+        li a:hover{
+            color: var(--blue);
+        }
+    }
+
+    }
+}
+
+
+button{
+    padding: .9rem 2.5rem;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+button:hover{
+
+    background-color: rgba(0, 136, 169, 0.8);
+    
+}
