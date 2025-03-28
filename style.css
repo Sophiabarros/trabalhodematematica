@@ -2,8 +2,17 @@
 
 body{
     background-color: var(--verdeescuro);   
+    
 }
 main{
+
+    
+    background-color: var(--verdeescuro);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* ocupa toda a altura da tela */
+    margin: 0; /* remove margens padrão */
    
     .conteudo{
         background-color: var(--blue);
@@ -19,9 +28,6 @@ main{
         height: 20rem;
 
         padding-inline: 2rem;
-
-        margin-top: 4.5rem;
-        margin-inline: auto;
 
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
